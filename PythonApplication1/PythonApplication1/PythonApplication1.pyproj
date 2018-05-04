@@ -21,10 +21,19 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="AnzhiSearch.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="applestore.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="applestoreDict.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HtmlGet.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="iTunesSearchAPI.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="LogHandle.py">
@@ -32,6 +41,9 @@
     </Compile>
     <Compile Include="model1.py" />
     <Compile Include="PythonApplication1.py" />
+    <Compile Include="SJSearch.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="JavaScript1.js" />
