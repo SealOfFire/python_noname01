@@ -17,7 +17,8 @@ class Logger():
 
 	logger = logging.getLogger()
 	logger.debug("log initialize finish")
-	
+	logger.setLevel(logging.NOTSET);
+
 	'''
 	@classmethod
 	def __init__(self):

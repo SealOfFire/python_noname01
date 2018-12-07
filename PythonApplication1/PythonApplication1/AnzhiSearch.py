@@ -15,6 +15,9 @@ def analyseHTML(html):
 	'''
 	Logger.debug("analyseHTML")
 	soup = BeautifulSoup(html,'lxml')
+	# 解析HTML
+	for link in soup.select('.app_list li'):
+		Logger.info(link.select('.app_name a')[0].get_text())
 
 
 def searchAppInfo(keyword):
@@ -34,4 +37,4 @@ def searchAppInfo(keyword):
 
 # 测试代码
 result = searchAppInfo("微信")
-Logger.debug(result) 
+Logger.debug(result)

@@ -1,0 +1,49 @@
+[2018-05-04 16:09:53,806] - [DEBUG] - log initialize finish
+[2018-05-04 16:09:53,970] - [DEBUG] - searchAppInfo:[weixin]
+[2018-05-04 16:09:56,654] - [DEBUG] - getSarchResult:[http://sj.qq.com/myapp/search.htm]
+[2018-05-04 16:09:56,986] - [DEBUG] - Starting new HTTP connection (1): sj.qq.com
+[2018-05-04 16:09:57,288] - [DEBUG] - http://sj.qq.com:80 "GET /myapp/search.htm?kw=weixin HTTP/1.1" 200 None
+[2018-05-04 16:17:03,869] - [DEBUG] - log initialize finish
+[2018-05-04 16:17:04,039] - [DEBUG] - searchAppInfo:[weixin]
+[2018-05-04 16:17:06,621] - [DEBUG] - getSarchResult:[http://sj.qq.com/myapp/search.htm]
+[2018-05-04 16:17:09,717] - [DEBUG] - Starting new HTTP connection (1): sj.qq.com
+[2018-05-04 16:17:10,013] - [DEBUG] - http://sj.qq.com:80 "GET /myapp/search.htm?kw=weixin HTTP/1.1" 200 None
+[2018-05-04 16:17:13,319] - [ERROR] - __init__() got an unexpected keyword argument 'heads'
+[2018-05-04 16:17:40,186] - [DEBUG] - log initialize finish
+[2018-05-04 16:17:40,361] - [DEBUG] - searchAppInfo:[weixin]
+[2018-05-04 16:17:43,190] - [DEBUG] - getSarchResult:[http://sj.qq.com/myapp/search.htm]
+[2018-05-04 16:17:45,369] - [DEBUG] - Starting new HTTP connection (1): sj.qq.com
+[2018-05-04 16:17:45,849] - [DEBUG] - http://sj.qq.com:80 "GET /myapp/search.htm?kw=weixin HTTP/1.1" 200 7049
+[2018-05-04 16:20:34,717] - [DEBUG] - log initialize finish
+[2018-05-04 16:20:42,844] - [DEBUG] - log initialize finish
+[2018-05-04 16:20:57,266] - [DEBUG] - log initialize finish
+[2018-05-04 16:20:57,438] - [DEBUG] - searchAppInfo:[weixin]
+[2018-05-04 16:21:00,438] - [DEBUG] - getSarchResult:[http://sj.qq.com/myapp/search.htm]
+[2018-05-04 16:21:03,026] - [DEBUG] - Starting new HTTP connection (1): sj.qq.com
+[2018-05-04 16:21:03,170] - [DEBUG] - http://sj.qq.com:80 "GET /myapp/search.htm?kw=weixin HTTP/1.1" 200 7049
+[2018-05-04 16:22:45,196] - [DEBUG] - log initialize finish
+[2018-05-04 16:22:45,367] - [DEBUG] - searchAppInfo:[]
+[2018-05-04 16:22:47,463] - [DEBUG] - getSarchResult:[http://sj.qq.com/myapp/search.htm]
+[2018-05-04 16:22:49,697] - [DEBUG] - Starting new HTTP connection (1): sj.qq.com
+[2018-05-04 16:22:49,772] - [DEBUG] - http://sj.qq.com:80 "GET /myapp/search.htm HTTP/1.1" 200 None
+[2018-05-04 16:29:35,049] - [DEBUG] - log initialize finish
+[2018-05-04 16:29:35,223] - [DEBUG] - searchAppInfo:[]
+[2018-05-04 16:29:39,035] - [DEBUG] - getSarchResult:[http://sj.qq.com/myapp/search.htm]
+[2018-05-04 16:29:41,250] - [DEBUG] - Starting new HTTP connection (1): sj.qq.com
+[2018-05-04 16:29:41,584] - [DEBUG] - http://sj.qq.com:80 "GET /myapp/search.htm?kw=weixin HTTP/1.1" 200 None
+[2018-05-04 16:34:11,242] - [DEBUG] - log initialize finish
+[2018-05-04 16:34:11,413] - [DEBUG] - searchAppInfo:[]
+[2018-05-04 16:34:15,023] - [DEBUG] - getSarchResult:[http://sj.qq.com/myapp/search.htm]
+[2018-05-04 16:34:17,099] - [DEBUG] - Starting new HTTP connection (1): sj.qq.com
+[2018-05-04 16:34:17,446] - [DEBUG] - http://sj.qq.com:80 "GET /myapp/detail.htm?apkName=com.tencent.mobileqq HTTP/1.1" 200 None
+[2018-05-04 16:34:21,367] - [DEBUG] - analyseHTML
+[2018-05-04 16:34:27,885] - [DEBUG] - log initialize finish
+[2018-05-04 16:34:28,053] - [DEBUG] - searchAppInfo:[]
+[2018-05-04 16:34:30,575] - [DEBUG] - getSarchResult:[http://sj.qq.com/myapp/search.htm]
+[2018-05-04 16:34:33,026] - [DEBUG] - Starting new HTTP connection (1): sj.qq.com
+[2018-05-04 16:34:33,312] - [DEBUG] - http://sj.qq.com:80 "GET /myapp/detail.htm?apkName=com.tencent.mobileqq HTTP/1.1" 200 None
+[2018-05-04 16:39:48,351] - [DEBUG] - log initialize finish
+[2018-05-04 16:39:48,529] - [DEBUG] - searchAppInfo:[]
+[2018-05-04 16:39:50,368] - [DEBUG] - getSarchResult:[http://sj.qq.com/myapp/search.htm]
+[2018-05-04 16:39:53,667] - [DEBUG] - Starting new HTTP connection (1): sj.qq.com
+[2018-05-04 16:39:53,917] - [DEBUG] - http://sj.qq.com:80 "POST /myapp/searchAjax.htm?kw=微信&pns=&sid= HTTP/1.1" 200 None

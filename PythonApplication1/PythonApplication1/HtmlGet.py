@@ -3,11 +3,12 @@
 	获取查询结果的网页
 '''
 from LogHandle import Logger
+import certifi
 import urllib3
 from bs4 import BeautifulSoup
 
 waitSecond = 120
-http = urllib3.PoolManager()
+http = urllib3.PoolManager(cert_reqs='CERT_REQUIRED', ca_certs=certifi.where())
 
 def getSarchResult(url, fields):
 	Logger.debug("getSarchResult:[%s]" % url)
@@ -21,12 +22,12 @@ def getSarchResult(url, fields):
 		"Upgrade-Insecure-Requests": "1",
 		"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0"}
 	# response = http.request('GET',url, fields=fields, headers=headers)
-	# response = http.request('GET',url, fields=fields)
-	response = http.request('POST','http://sj.qq.com/myapp/searchAjax.htm?kw=微信&pns=&sid=')
+	response = http.request('GET',url, fields=fields)
+	# response = http.request('GET','http://sj.qq.com/myapp/searchAjax.htm?kw=微信&pns=&sid=')
 	while(True):
 		if(response.status == 200):
 			return response.data
 		else:
 			Logger.warning("网络错误:[%s]" % response.status)
-			Logger.debug("等待:[%s]秒后重试" % waitSecond)
+			Logger.info("等待:[%s]秒后重试" % waitSecond)
 			time.sleep(waitSecond)
